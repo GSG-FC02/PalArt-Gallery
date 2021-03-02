@@ -12,3 +12,57 @@ font-family: 'Raleway', sans-serif;
 *{
     font-family: 'Raleway', sans-serif;
 }
+
+
+/* start footer */
+
+footer{
+    padding: 25px 0px;
+    background-color: #23689b;
+    color: #f4f5db;
+}
+
+.socialMedia_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23689b;
+    flex-direction: column;
+}
+
+.socialMedia_container p{
+    background-color: #23689b;
+}
+
+.socialMedia_container_icons{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #23689b;
+    padding-top: 10px;
+}
+
+.socialMedia_container_icons a{
+    background-color: #23689b;
+}
+
+.socialMedia_container_icons i {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #f4f5db;
+    border-radius: 50%;
+    color: #f4f5db;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #23689b;
+
+}
+
+.socialMedia_container_icons i:hover{
+    border-color: gold ;
+    color:gold;
+}
+
+/* end footer */
