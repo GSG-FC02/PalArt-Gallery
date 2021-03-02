@@ -1,5 +1,5 @@
 /*
- #f4f5db Background 
+#f4f5db Background 
 #d9dab0   nav color  
 #487e95 light blue  للعناوين 
 #23689b  dark  blue  nav- footer 
@@ -7,8 +7,62 @@ font-family font-family: 'Raleway', sans-serif; all
 // logo font style
 font family:font-family: 'Dancing Script', cursive;
 font-family: 'Raleway', sans-serif;
-:*/
+*/
 
 *{
     font-family: 'Raleway', sans-serif;
+    background-color: #f4f5db;
 }
+
+
+/* Start Gallery Section */
+
+.gallery {
+    margin: 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    color: #487e95;
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+.column {
+    flex: 32%;
+    max-width: 33%;
+    padding: 0 6px;
+}
+  
+.column img {
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.my-button {
+	background: none;
+	border: 2px solid #487e95;
+    border-radius: 30px;
+	padding: 10px 30px;
+	color: #487e95;
+	font-weight: bold;
+    margin-top: 20px;
+	font-size: 1.5vw;
+    outline: none;
+}
+
+.my-button:hover {
+    background-color: #487e95;
+    color: white;
+    border-color: #487e95;
+}
+  
+/* End Gallery Section */

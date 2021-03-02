@@ -1,0 +1,26 @@
+/* Start Gallery Section */
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 32%;
+      max-width: 31%;
+      flex-wrap: nowrap;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+
+    .gallery h2 {
+        font-size: 6vw;
+    }
+
+    .my-button {
+        font-size: 4vw;
+    }
+}
+
+/* End Gallery */
