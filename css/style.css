@@ -9,111 +9,44 @@ font family:font-family: 'Dancing Script', cursive;
 font-family: 'Raleway', sans-serif;
 :*/
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
-}
+/* about_us style */
 
-body {
-  background-color: #f4f5db;
-}
-
-.header {
-  padding: 5px;
-  height: 80px;
-  background: rgba(0, 0, 0, 0.3);
-  width: 100%;
-  z-index: 10;
-  position: fixed;
-}
-
-.header_container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.header_container_title {
-  font-family: "Reggae One", cursive;
-  color: white;
-  font-size: 50px;
-  margin-left: 20px;
-  width: 30%;
-  float: left;
-}
-
-.header_nav {
-  width: 30%;
-}
-
-.header_nav_list {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.header_nav_list a {
-  text-decoration: none;
-  font-size: 22px;
-  margin: 0 10px;
-  color: #fff;
-}
-
-.banner_area {
-  width: 100%;
+.about_us {
   height: 720px;
-  top: 80px;
-  background-image: url(https://images.pexels.com/photos/6933134/pexels-photo-6933134.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
+  background-color: #f4f5db;
+  background: url(https://i.etsystatic.com/20624802/r/il/cfcf14/2016680072/il_794xN.2016680072_ke29.jpg)
+    no-repeat left;
+  border: #f4f5db 60px solid;
+  border-left: none;
   padding-top: 100px;
+  background-size: 55%;
+  overflow: hidden;
 }
 
-.banner_area h2 {
-  padding-top: 8%;
-  font-size: 10vw;
-  text-transform: uppercase;
-  color: #fff;
-}
-.banner_area p {
-  font-size: 2.5vw;
-  color: #fff;
+.about_us_content {
+  width: 55%;
+  float: right;
+  background-color: #d9dab0;
+  padding: 80px;
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.3);
 }
 
-.header_nav a:hover {
-  color: gold;
-  border-bottom: gold 2px solid;
-  font-size: 30px;
+.about_us_title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #487e95;
+  font-weight: bold;
 }
 
-.header i {
-  animation-name: logo1;
-  animation-duration: 3s;
-  animation-iteration-count: 3;
-  animation-timing-function: ease-in;
+.about_us p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 20px;
 }
 
-@keyframes logo1 {
-  0% {
-    color: white;
-  }
-
-  25% {
-    color: #577d9b;
-  }
-  50% {
-    color: #23689b;
-  }
-  75% {
-    color: #577d9b;
-  }
-
-  100% {
-    color: white;
-  }
+.about_us_title:hover {
+  width: 50%;
+  font-size: 60px;
+  border-bottom: #487e95 2px solid;
 }

@@ -1,35 +1,29 @@
 @media screen and (max-width: 768px) {
-  .header_container {
-    flex-direction: column;
+  .about_us {
     text-align: center;
-  }
-  .header {
+    padding-top: 0px;
     height: auto;
-    position: absolute;
+    background-position: top;
+    background-size: contain;
+    border: none;
+    border-top: 20px #f4f5db solid;
   }
-  .header_nav {
+  .about_us_content {
+    padding: 10px;
+    margin-top: 350px;
     width: 100%;
-  }
-  .header_container_title {
-    padding-bottom: 10px;
-    margin-left: 0px;
-  }
-
-  .banner_area {
-    padding-top: 200px;
-  }
-
-  .banner_area h2 {
-    font-size: 18vw;
-  }
-
-  .banner_area p {
-    font-size: 9vw;
+    flex-direction: column;
+    background-size: 100%;
+    box-shadow: none;
   }
 }
-
 @media screen and (max-width: 900px) {
-    .header_nav {
-      font-size: 20px;
-      justify-content: space-between;
-    }
+  .about_us {
+    background-position: top left;
+    background-size: contain;
+  }
+  .about_us_content {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
