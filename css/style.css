@@ -11,4 +11,92 @@ font-family: 'Raleway', sans-serif;
 
 *{
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.contact-us{
+    color:#487e95;
+    background-color:#f4f5db ;
+    width: 100%;
+}
+.contact-Container{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding:3%;
+    
+    
+}
+.contact-us-header{
+    font-weight:bold; 
+    color:#487e95 ;
+    margin: center;
+   padding: 3%;
+   font-size: 30px;
+}
+.contact-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: row; */
+}
+.contact-info {
+    width:30%;
+    height: 10%;
+    border:2px solid #d9dab0 ;
+    border-radius:5px ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 10px;
+    line-height: 1.5;
+    overflow: hidden;
+    color: #487e95;
+}
+.contact-us form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.contact-us form input{
+    border:0;
+    width:360px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 5px;
+    outline: none;
+}
+.contact-us form textarea,
+.contact-us form input::placeholder{
+    padding: 3%;
+}
+.contact-us form textarea{
+    width:750px ;
+    margin:15px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    height: 20vh;
+}
+.contact-us form button{
+    width: 30%;
+    height: 40px;
+    margin-top:15px;
+    background-color:#487e95 ;
+    color: #d9dab0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact-us form button:hover{
+    outline: none;
+    color:#13749e ;
+    background-color: #d9dab0;
+
 }
