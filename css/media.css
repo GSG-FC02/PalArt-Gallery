@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+  .header_container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header {
+    height: auto;
+    position: absolute;
+  }
+  .header_nav {
+    width: 100%;
+  }
+  .header_container_title {
+    padding-bottom: 10px;
+    margin-left: 0px;
+  }
+
+  .banner_area {
+    padding-top: 200px;
+  }
+
+  .banner_area h2 {
+    font-size: 18vw;
+  }
+
+  .banner_area p {
+    font-size: 9vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+    .header_nav {
+      font-size: 20px;
+      justify-content: space-between;
+    }
