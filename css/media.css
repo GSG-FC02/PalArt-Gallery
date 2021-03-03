@@ -1,29 +1,43 @@
 @media screen and (max-width: 768px) {
-  .about_us {
-    text-align: center;
-    padding-top: 0px;
-    height: auto;
-    background-position: top;
-    background-size: contain;
-    border: none;
-    border-top: 20px #f4f5db solid;
-  }
-  .about_us_content {
-    padding: 10px;
-    margin-top: 350px;
-    width: 100%;
+  .header_container {
     flex-direction: column;
-    background-size: 100%;
-    box-shadow: none;
+    text-align: center;
+  }
+  .header {
+    height: auto;
+    position: absolute;
+  }
+  .header_nav {
+    width: 100%;
+  }
+  .header_nav_list a {
+    font-size: 15px;
+  }
+
+  .header_nav_list a:hover {
+    font-size: 16px;
+  }
+  .header_container_title {
+    padding-bottom: 10px;
+    margin-left: 0px;
+  }
+
+  .banner_area {
+    padding-top: 200px;
+  }
+
+  .banner_area h2 {
+    font-size: 18vw;
+  }
+
+  .banner_area p {
+    font-size: 9vw;
   }
 }
+
 @media screen and (max-width: 900px) {
-  .about_us {
-    background-position: top left;
-    background-size: contain;
-  }
-  .about_us_content {
-    padding: 10px;
+  .header_nav {
     font-size: 20px;
+    justify-content: space-between;
   }
 }
