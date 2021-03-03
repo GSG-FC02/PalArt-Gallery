@@ -9,9 +9,54 @@ font family:font-family: 'Dancing Script', cursive;
 font-family: 'Raleway', sans-serif;
 */
 
+body{
+  background-color: #f4f5db;
+}
+
 *{
     font-family: 'Raleway', sans-serif;
-    background-color: #f4f5db;
+}
+
+/* about_us style */
+
+.about_us {
+  height: 720px;
+  background-color: #f4f5db;
+  background: url(https://i.etsystatic.com/20624802/r/il/cfcf14/2016680072/il_794xN.2016680072_ke29.jpg)
+    no-repeat left;
+  border: #f4f5db 60px solid;
+  border-left: none;
+  padding-top: 100px;
+  background-size: 55%;
+  overflow: hidden;
+}
+
+.about_us_content {
+  width: 55%;
+  float: right;
+  background-color: #d9dab0;
+  padding: 80px;
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about_us_title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #487e95;
+  font-weight: bold;
+}
+
+.about_us p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.about_us_title:hover {
+  width: 50%;
+  font-size: 60px;
+  border-bottom: #487e95 2px solid;
 }
 
 
