@@ -1,39 +1,24 @@
 @media screen and (max-width:768px){
    
-    .contact-us .con-text-area{
-     width:100vh; 
-     height: 100px;
-}
-.contact-us .con-text-area textarea{
-    width:30%
-}
+
 .contact-info{
     overflow: hidden;
-    font-size: 8px;
-    height: 50px;
+    font-size: 10px;
+    height: 22%;
     padding: 10px;
-    color: #487e95;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
-.contact-us-header{
-    font-size: 20px;
-    padding: 17px;
+.contact-header{
+    font-size: 18px;
 }
-.contact-us form input{
-    width: 100%;
+
+.contact form button{
+    width: 70%;
+    font-size: 14px;
 }
-.contact-us form button{
-    width: 120px;
+.contact-info {
+    width:80%;
+    font-size: 8px;
 }
 }
-@media (min-width:880px) and (max-width:1024px){
-    .contact-us .con-text-area textarea{
-        width:35vh;
-    }
-}
-@media (min-width:320px) and (max-width:425px){
-    .contact-us .con-text-area textarea{
-        width:17vh;
-    }
-}
+
