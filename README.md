@@ -1,2 +1,0 @@
-# PalArt-Gallery
-PalArt gallery

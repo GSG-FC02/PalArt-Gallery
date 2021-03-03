@@ -1,15 +1,93 @@
-/*
- #f4f5db Background 
-#d9dab0   nav color  
-#487e95 light blue  للعناوين 
-#23689b  dark  blue  nav- footer 
-font-family font-family: 'Raleway', sans-serif; all 
-// logo font style
-font family:font-family: 'Dancing Script', cursive;
-font-family: 'Raleway', sans-serif;
-:*/
 
-/* about_us style */
+
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact {
+  color: #487e95;
+  background-color: #f4f5db;
+  width: 100%;
+  padding-bottom: 40px;
+}
+.contact-Container ,.header-title {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+ 
+}
+.contact-header{
+    font-size: 36px;
+    font-weight: bold;
+    padding:50px;
+    margin: auto;
+}
+.contact-right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+}
+.contact-info {
+  width: 60%;
+  height: 35%;
+  border: 3px solid #d9dab0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.5;
+  color: #487e95;
+  margin: auto;
+  margin: 10px 0;
+  overflow: hidden; /* for email when size shrink*/
+}
+
+.contact-form{
+    width: 70%;
+}
+.contact-form form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form input ,.contact-form textarea {
+  border: 0;
+  padding:5px 0;
+  font-size: 16px;
+  height: 40px;
+  margin: 15px 0;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+  width: 100%;
+}
+.contact-form textarea{
+    height: 150px;
+}
+.contact-form textarea,
+.contact-form input::placeholder {
+  padding: 3%;
+  
+}
+.contact form button {
+  width: 30%;
+  height: 40px;
+  margin-top: 15px;
+  background-color: #487e95;
+  color: #d9dab0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
 
 .about_us {
   height: 720px;
@@ -50,3 +128,8 @@ font-family: 'Raleway', sans-serif;
   font-size: 60px;
   border-bottom: #487e95 2px solid;
 }
+.contact form button:hover {
+  outline: none;
+  color: #13749e;
+  background-color: #d9dab0;
+} 
