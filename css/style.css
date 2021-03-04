@@ -1,3 +1,7 @@
+body {
+  background-color: #f4f5db;
+}
+
 * {
   font-family: "Raleway", sans-serif;
   margin: 0;
@@ -5,87 +9,8 @@
   box-sizing: border-box;
 }
 
-.contact {
-  color: #487e95;
-  background-color: #f4f5db;
-  width: 100%;
-  padding-bottom: 40px;
-}
-.contact-Container ,.header-title {
-  width: 60%;
-  text-align: center;
-  margin: auto;
-  display: flex;
- 
-}
-.contact-header{
-    font-size: 36px;
-    font-weight: bold;
-    padding:50px;
-    margin: auto;
-}
-.contact-right{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    margin-right: 0;
-}
-.contact-info {
-  width: 60%;
-  height: 35%;
-  border: 3px solid #d9dab0;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  line-height: 1.5;
-  color: #487e95;
-  margin: auto;
-  margin: 10px 0;
-  overflow: hidden; /* for email when size shrink*/
-}
 
-.contact-form{
-    width: 70%;
-}
-.contact-form form {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-}
-.contact-form input ,.contact-form textarea {
-  border: 0;
-  padding:5px 0;
-  font-size: 16px;
-  height: 40px;
-  margin: 15px 0;
-  border-radius: 5px;
-  outline: none;
-  resize: none;
-  width: 100%;
-}
-.contact-form textarea{
-    height: 150px;
-}
-.contact-form textarea,
-.contact-form input::placeholder {
-  padding: 3%;
-  
-}
-.contact form button {
-  width: 30%;
-  height: 40px;
-  margin-top: 15px;
-  background-color: #487e95;
-  color: #d9dab0;
-  border: 0;
-  border-radius: 5px;
-  font-size: 15px;
-}
-
+/* Start about_us style */
 
 .about_us {
   height: 720px;
@@ -126,14 +51,160 @@
   font-size: 60px;
   border-bottom: #487e95 2px solid;
 }
+
+/* End about_us style */
+
+
+/* Start Gallery Section Style */
+
+.gallery {
+  margin: 20px;
+  text-align: center;
+}
+
+.gallery h2 {
+  color: #487e95;
+  font-size: 3.5vw;
+  font-weight: bold;
+  margin: 50px 0 20px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 32%;
+  max-width: 33%;
+  padding: 0 6px;
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 5%;
+}
+
+.my-button {
+  background: none;
+  border: 2px solid #487e95;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: #487e95;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 1.5vw;
+  outline: none;
+}
+
+.my-button:hover {
+  background-color: #487e95;
+  color: white;
+  border-color: #487e95;
+}
+
+/* End Gallery Section Style */
+
+
+/* Start contact-us style */
+
+.contact {
+  color: #487e95;
+  background-color: #f4f5db;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.contact-Container,
+.header-title {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+.contact-header {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 50px;
+  margin: auto;
+}
+.contact-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 0;
+}
+.contact-info {
+  width: 60%;
+  height: 35%;
+  border: 3px solid #d9dab0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.5;
+  color: #487e95;
+  margin: auto;
+  margin: 10px 0;
+  overflow: hidden; /* for email when size shrink*/
+}
+
+.contact-form {
+  width: 70%;
+}
+.contact-form form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  height: 40px;
+  margin: 15px 0;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+  width: 100%;
+}
+.contact-form textarea {
+  height: 150px;
+}
+.contact-form textarea,
+.contact-form input::placeholder {
+  padding: 3%;
+}
+.contact form button {
+  width: 30%;
+  height: 40px;
+  margin-top: 15px;
+  background-color: #487e95;
+  color: #d9dab0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
 .contact form button:hover {
   outline: none;
   color: #13749e;
   background-color: #d9dab0;
-} 
+}
+
+/* End contact-us style */
 
 
-/* start footer */
+/* start footer style */
 
 footer{
     padding: 25px 0px;
@@ -173,4 +244,4 @@ footer{
     color:gold;
 }
 
-/* end footer */
+/* end footer style */
