@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {
   .header_container {
     flex-direction: column;
+
     text-align: center;
   }
   .header {
@@ -33,11 +34,41 @@
   .banner_area p {
     font-size: 9vw;
   }
+  .column {
+    flex: 32%;
+    max-width: 31%;
+    flex-wrap: nowrap;
+  }
+  .contact-info {
+    overflow: hidden;
+    font-size: 10px;
+    height: 22%;
+    padding: 10px;
+    font-weight: bold;
+  }
+  .contact-header {
+    font-size: 18px;
+  }
+  .contact form button {
+    width: 70%;
+    font-size: 14px;
+  }
+  .contact-info {
+    width: 80%;
+    font-size: 8px;
+  }
 }
 
 @media screen and (max-width: 900px) {
   .header_nav {
     font-size: 20px;
     justify-content: space-between;
+  }
+
+  .my-button {
+    font-size: 4vw;
+  }
+  .socialMedia_container_icons {
+    width: 50%;
   }
 }
