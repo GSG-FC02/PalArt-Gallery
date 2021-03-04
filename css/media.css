@@ -51,7 +51,7 @@
   }
   /* our team style media*/
   .our-team{
-    height: 800px;
+    height: 850px;
   }
   .our-team-maincontainer{
       flex-direction: column;
@@ -64,7 +64,7 @@
   }
   .our-team-box img{
       width: 250px;
-      height: 250px;
+      height: 300px;
   }
 }
 
@@ -82,7 +82,7 @@
   }
   .our-team-box img{
       width: 300px;
-      height: 300px;
+      height: 350px;
   }
 
 }
