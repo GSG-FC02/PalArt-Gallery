@@ -1,16 +1,12 @@
-@media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-
-    .gallery h2 {
-        font-size: 6vw;
-    }
-
-    .my-button {
-        font-size: 4vw;
-    }
+@media screen and (max-width: 900px) {
+  .about_us {
+    background-position: top left;
+    background-size: contain;
+  }
+  .about_us_content {
+    padding: 10px;
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width:768px){
@@ -56,13 +52,18 @@
   }
 }
 
-@media screen and (max-width: 900px) {
-  .about_us {
-    background-position: top left;
-    background-size: contain;
+@media screen and (max-width: 600px) {
+  .column {
+      flex: 100%;
+      max-width: 100%;
   }
-  .about_us_content {
-    padding: 10px;
-    font-size: 20px;
+  .gallery h2 {
+      font-size: 6vw;
+  }
+  .my-button {
+      font-size: 4vw;
+  }
+  .socialMedia_container_icons{
+      width: 50%;
   }
 }
