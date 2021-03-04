@@ -92,7 +92,7 @@
     height: 400px;
 }
 .our-team-box img{
-    width: 300px;
+    width: 280px;
     height: 350px;
 }
 /*gallery media--------*/
@@ -108,6 +108,9 @@
   .my-button {
       font-size: 4vw;
   }
+  .socialMedia_container_icons{
+    width: 50%;
+}
   
 }
 
