@@ -1,52 +1,120 @@
-/*
- #f4f5db Background 
-#d9dab0   nav color  
-#487e95 light blue  للعناوين 
-#23689b  dark  blue  nav- footer 
-font-family font-family: 'Raleway', sans-serif; all 
-// logo font style
-font family:font-family: 'Dancing Script', cursive;
-font-family: 'Raleway', sans-serif;
-:*/
 
-/* about_us style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f4f5db;
+  }
+.gal2-head {
+    padding: 5px;
+    height: 80px;
+    background:rgba(38, 128, 163, 0.9);
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+  }
+  
+  
+  .header_container_title , .back {
+    font-family: "Reggae One", cursive;
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+    width: 30%;
+  }
+  .header_container_title{
+      float: left;
+  }
+  .back {
+      float: right;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 15px;
+  }
+  
 
-.about_us {
-  height: 720px;
-  background-color: #f4f5db;
-  background: url(https://i.etsystatic.com/20624802/r/il/cfcf14/2016680072/il_794xN.2016680072_ke29.jpg)
-    no-repeat left;
-  border: #f4f5db 60px solid;
-  border-left: none;
-  padding-top: 100px;
-  background-size: 55%;
-  overflow: hidden;
+.gal2-head a {
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0 10px;
+    color: #fff;
+  }
+  
+  .gal2-head a:hover {
+    color: gold;
+    border-bottom: gold 2px solid;
+    font-size: 25px;
+  }
+  
+  .gal2-head .fa-firstdraft {
+    animation-name: logo1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+  }
+  @keyframes logo1 {
+    0% {
+      color: white;
+    }
+  
+    25% {
+      color: #577d9b;
+    }
+    50% {
+      color: #23689b;
+    }
+    75% {
+      color: #577d9b;
+    }
+  
+    100% {
+      color: white;
+    }
+  }
+/* **************************************************** */
+.paint{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    width: 100%;
+}
+.paint .painter:first-child{
+    margin-top: 150px;
+}
+.painter{
+    display: flex; 
+    width:80%;
+    height: 70%;
+    margin: 20px auto 20px auto;
 }
 
-.about_us_content {
-  width: 55%;
-  float: right;
-  background-color: #d9dab0;
-  padding: 80px;
-  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.3);
+ .paint-imge{
+    width: 40%;
+    height: 300px;
 }
-
-.about_us_title {
-  margin-bottom: 20px;
-  font-size: 40px;
-  color: #487e95;
-  font-weight: bold;
+.paint-imge img{
+    width: 100%;
+    height: 100%;
+  
 }
-
-.about_us p {
-  font-size: 20px;
-  line-height: 30px;
-  text-align: justify;
-  margin-bottom: 20px;
+.paint-desc{
+    width: 50%;
+    color:#487e95;
+    background-color: #d9dab0 ;
+    height: 300px;
+    padding:30px 0 20px 30px;
 }
-
-.about_us_title:hover {
-  width: 50%;
-  font-size: 60px;
-  border-bottom: #487e95 2px solid;
+.paint-desc h2{
+ font-weight: bold;
+ font-size: 30px;
+ margin-left:0;
+}
+.paint-desc p{
+font-size:16px; 
+margin: 20px 20px  0px 0;
+line-height: 1.5;
 }
