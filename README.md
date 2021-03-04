@@ -28,3 +28,4 @@ The second page provides more information about each painter and a group of pain
 10. Modify some of the errors that we encountered
 11. Ensure that each section of the site is working properly
 12. merged all the pull requests of the sections.
+
