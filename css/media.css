@@ -1,15 +1,5 @@
-/* Start Footer */
-
-@media screen and (max-width: 800px) {
-    .socialMedia_container_icons{
-        width: 30%;
-    }
-}
-
 @media screen and (max-width: 500px) {
     .socialMedia_container_icons{
         width: 50%;
     }
 }
-
-/* End Footer */
