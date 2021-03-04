@@ -1,27 +1,19 @@
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+
+    .gallery h2 {
+        font-size: 6vw;
+    }
+
+    .my-button {
+        font-size: 4vw;
+    }
+}
 
 @media screen and (max-width:768px){
-   
-
-.contact-info{
-    overflow: hidden;
-    font-size: 10px;
-    height: 22%;
-    padding: 10px;
-    font-weight: bold;  
-}
-.contact-header{
-    font-size: 18px;
-}
-
-.contact form button{
-    width: 70%;
-    font-size: 14px;
-}
-.contact-info {
-    width:80%;
-    font-size: 8px;
-}
-
   .about_us {
     text-align: center;
     padding-top: 0px;
@@ -39,7 +31,31 @@
     background-size: 100%;
     box-shadow: none;
   }
+  .column {
+    flex: 32%;
+    max-width: 31%;
+    flex-wrap: nowrap;
+  }
+  .contact-info{
+      overflow: hidden;
+      font-size: 10px;
+      height: 22%;
+      padding: 10px;
+      font-weight: bold;  
+  }
+  .contact-header{
+      font-size: 18px;
+  }
+  .contact form button{
+      width: 70%;
+      font-size: 14px;
+  }
+  .contact-info {
+      width:80%;
+      font-size: 8px;
+  }
 }
+
 @media screen and (max-width: 900px) {
   .about_us {
     background-position: top left;
@@ -50,4 +66,3 @@
     font-size: 20px;
   }
 }
-
