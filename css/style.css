@@ -94,9 +94,9 @@ text-align: center;
 }
 
 .our-team-box img{
-width: 180px;
-height: 180px;
-border-radius: 50%;
+width: 200px;
+height: 300px;
+border-radius: 10%;
 margin-top: 15px;
 margin-bottom: 15px;
 box-shadow: 2px 2px 8px 1px rgb(99, 97, 97);
@@ -107,3 +107,91 @@ color: rgb(122, 121, 121);
 font-family: 'Raleway', sans-serif;
 
 }
+/* contact style----------------*/
+.contact {
+  color: #487e95;
+  background-color: #f4f5db;
+  width: 100%;
+  padding-bottom: 40px;
+}
+.contact-Container ,.header-title {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+ 
+}
+.contact-header{
+    font-size: 36px;
+    font-weight: bold;
+    padding:50px;
+    margin: auto;
+}
+.contact-right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+}
+.contact-info {
+  width: 60%;
+  height: 35%;
+  border: 3px solid #d9dab0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.5;
+  color: #487e95;
+  margin: auto;
+  margin: 10px 0;
+  overflow: hidden; /* for email when size shrink*/
+}
+
+.contact-form{
+    width: 70%;
+}
+.contact-form form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form input ,.contact-form textarea {
+  border: 0;
+  padding:5px 0;
+  font-size: 16px;
+  height: 40px;
+  margin: 15px 0;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+  width: 100%;
+}
+.contact-form textarea{
+    height: 150px;
+}
+.contact-form textarea,
+.contact-form input::placeholder {
+  padding: 3%;
+  
+}
+.contact form button {
+  width: 30%;
+  height: 40px;
+  margin-top: 15px;
+  background-color: #487e95;
+  color: #d9dab0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+
+.contact form button:hover {
+  outline: none;
+  color: #13749e;
+  background-color: #d9dab0;
+} 

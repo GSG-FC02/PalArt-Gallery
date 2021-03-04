@@ -1,4 +1,27 @@
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width:768px){
+   
+
+.contact-info{
+    overflow: hidden;
+    font-size: 10px;
+    height: 22%;
+    padding: 10px;
+    font-weight: bold;  
+}
+.contact-header{
+    font-size: 18px;
+}
+
+.contact form button{
+    width: 70%;
+    font-size: 14px;
+}
+.contact-info {
+    width:80%;
+    font-size: 8px;
+}
+
   .about_us {
     text-align: center;
     padding-top: 0px;
