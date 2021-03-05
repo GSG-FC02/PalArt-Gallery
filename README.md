@@ -1,5 +1,7 @@
-# PalArt-Gallery
+# [PalArt gallery](https://gsg-fc02.github.io/PalArt-Gallery/)
+
 PalArt gallery
+
 ## Team member :
 * Reem Shamia 
 * Eman Jaber
