@@ -59,64 +59,7 @@ body {
   width: 50%;
   font-size: 60px;
   border-bottom: #487e95 2px solid;
-<<<<<<< HEAD
 } */
-=======
-}
-/* End about_us style---------------- */
-/* cut line*/
-.cut-line img{
-  width: 30%;
-  margin: 50px 35% 40px 35%;
-}
-/* our team style ------------- */
-.our-team{
-  height: 500px;
-  margin-top: 50px;
-}
-
-.our-team-maincontainer{
-width: 90%;
-margin: 0 auto;
-display: flex;
-}
-
-#our-team-header{
-text-align: center;
-font-size:40px;
-margin-bottom: 10px;
-color:#487e95 ;
-font-family: 'Raleway', sans-serif;
-}
-.our-team-subcontainer{
-display: flex;
-width: 50%;
-}
-
-.our-team-box{
-width:50%;
-height: 350px;
-margin: 1%;
-text-align: center;
-}
-
-.our-team-box img{
-width: 200px;
-height: 300px;
-border-radius: 10%;
-margin-top: 15px;
-margin-bottom: 25px;
-box-shadow: 2px 2px 8px 1px rgb(99, 97, 97);
-}
-
-.our-team-box h3 {
-color: rgb(122, 121, 121);
-font-family: 'Raleway', sans-serif;
-
-}
-
->>>>>>> main
-
 
 /* Start Gallery Section Style */
 
