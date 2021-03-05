@@ -1,0 +1,308 @@
+/*
+ #f4f5db Background 
+#d9dab0   nav color  
+#487e95 light blue  للعناوين 
+#23689b  dark  blue  nav- footer 
+font-family font-family: 'Raleway', sans-serif; all 
+// logo font style
+font family:font-family: 'Dancing Script', cursive;
+font-family: 'Raleway', sans-serif;
+:*/
+body {
+  background-color: #f4f5db;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Start about_us style */
+
+.about_us {
+  height: 720px;
+  background-color: #f4f5db;
+  background: url(https://i.etsystatic.com/20624802/r/il/cfcf14/2016680072/il_794xN.2016680072_ke29.jpg)
+    no-repeat left;
+  border: #f4f5db 60px solid;
+  border-left: none;
+  padding-top: 100px;
+  background-size: 55%;
+  overflow: hidden;
+}
+
+.about_us_content {
+  width: 55%;
+  float: right;
+  background-color: #d9dab0;
+  padding: 80px;
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about_us_title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: #487e95;
+  font-weight: bold;
+}
+
+.about_us p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.about_us_title:hover {
+  width: 50%;
+  font-size: 60px;
+  border-bottom: #487e95 2px solid;
+}
+/* End about_us style---------------- */
+/* cut line*/
+.cut-line img{
+  width: 30%;
+  margin: 50px 35% 40px 35%;
+}
+/* our team style ------------- */
+.our-team{
+  height: 500px;
+  margin-top: 50px;
+}
+
+.our-team-maincontainer{
+width: 90%;
+margin: 0 auto;
+display: flex;
+}
+
+#our-team-header{
+text-align: center;
+font-size:40px;
+margin-bottom: 10px;
+color:#487e95 ;
+font-family: 'Raleway', sans-serif;
+}
+.our-team-subcontainer{
+display: flex;
+width: 50%;
+}
+
+.our-team-box{
+width:50%;
+height: 350px;
+margin: 1%;
+text-align: center;
+}
+
+.our-team-box img{
+width: 200px;
+height: 300px;
+border-radius: 10%;
+margin-top: 15px;
+margin-bottom: 25px;
+box-shadow: 2px 2px 8px 1px rgb(99, 97, 97);
+}
+
+.our-team-box h3 {
+color: rgb(122, 121, 121);
+font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+
+/* Start Gallery Section Style */
+
+.gallery {
+  margin: 20px;
+  text-align: center;
+}
+
+.gallery h2 {
+  color: #487e95;
+  font-size: 3.5vw;
+  font-weight: bold;
+  margin: 50px 0 20px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 32%;
+  max-width: 33%;
+  padding: 0 6px;
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 5%;
+}
+
+.my-button {
+  background: none;
+  border: 2px solid #487e95;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: #487e95;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 1.5vw;
+  outline: none;
+}
+
+.my-button:hover {
+  background-color: #487e95;
+  color: white;
+  border-color: #487e95;
+}
+
+/* End Gallery Section Style */
+
+
+/* Start contact-us style */
+
+.contact {
+  color: #487e95;
+  background-color: #f4f5db;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.contact-Container,
+.header-title {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+.contact-header {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 50px;
+  margin: auto;
+}
+.contact-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 0;
+}
+.contact-info {
+  width: 60%;
+  height: 35%;
+  border: 3px solid #d9dab0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.5;
+  color: #487e95;
+  margin: auto;
+  margin: 10px 0;
+  overflow: hidden; /* for email when size shrink*/
+}
+
+.contact-form {
+  width: 70%;
+}
+.contact-form form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  height: 40px;
+  margin: 15px 0;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+  width: 100%;
+}
+.contact-form textarea {
+  height: 150px;
+}
+.contact-form textarea,
+.contact-form input::placeholder {
+  padding: 3%;
+}
+.contact form button {
+  width: 30%;
+  height: 40px;
+  margin-top: 15px;
+  background-color: #487e95;
+  color: #d9dab0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.contact form button:hover {
+  outline: none;
+  color: #13749e;
+  background-color: #d9dab0;
+}
+
+/* End contact-us style */
+
+
+/* start footer style */
+
+footer{
+    padding: 25px 0px;
+    background-color: #23689b;
+    color: #f4f5db;
+}
+
+.socialMedia_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.socialMedia_container_icons{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 1em;
+}
+
+.socialMedia_container_icons i {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #f4f5db;
+    border-radius: 50%;
+    color: #f4f5db;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.socialMedia_container_icons i:hover{
+    border-color: gold ;
+    color:gold;
+}
+
+/* end footer style */
