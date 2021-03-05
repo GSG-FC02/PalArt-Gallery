@@ -9,7 +9,7 @@
   }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px) {
   .about_us {
     text-align: center;
     padding-top: 0px;
@@ -27,43 +27,70 @@
     background-size: 100%;
     box-shadow: none;
   }
+
+  /* the responsive of the tablet */
+  @media screen and (width: 768px) {
+    .about_us {
+      padding-top: 0px;
+      height: auto;
+      background-position: top;
+      background-size: 40vw;
+      background-position: left;
+      border: none;
+      border-top: 20px #f4f5db solid;
+      font-size: 17px;
+    }
+
+    .about_us_content {
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 17px;
+      float: right;
+      width: 70%;
+      height: 70%;
+      background-size: 100%;
+      box-shadow: none;
+    }
+  }
+
   .column {
     flex: 32%;
     max-width: 31%;
     flex-wrap: nowrap;
   }
-  .contact-info{
-      overflow: hidden;
-      font-size: 10px;
-      height: 22%;
-      padding: 10px;
-      font-weight: bold;  
+  .contact-info {
+    overflow: hidden;
+    font-size: 10px;
+    height: 22%;
+    padding: 10px;
+    font-weight: bold;
   }
-  .contact-header{
-      font-size: 18px;
+  .contact-header {
+    font-size: 18px;
   }
-  .contact form button{
-      width: 70%;
-      font-size: 14px;
+  .contact form button {
+    width: 70%;
+    font-size: 14px;
   }
   .contact-info {
-      width:80%;
-      font-size: 8px;
+    width: 80%;
+    font-size: 8px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .column {
-      flex: 100%;
-      max-width: 100%;
+    flex: 100%;
+    max-width: 100%;
   }
   .gallery h2 {
-      font-size: 6vw;
+    font-size: 6vw;
   }
   .my-button {
-      font-size: 4vw;
+    font-size: 4vw;
   }
-  .socialMedia_container_icons{
-      width: 50%;
+  .socialMedia_container_icons {
+    width: 50%;
   }
 }
