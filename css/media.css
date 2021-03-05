@@ -64,6 +64,16 @@
     padding: 80px 30% 0px 30%;
     font-size: 80px;
   }
+  .our-team-subcontainer {
+    width: 100%;
+  }
+  .our-team-box {
+    height: 350px;
+  }
+  .our-team-box img {
+    width: 250px;
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -120,6 +130,33 @@
     background-size: 100%;
     box-shadow: none;
   }
+
+  /* the responsive of tablet */
+  @media screen and (width: 768px) {
+    .about_us {
+      padding-top: 0px;
+      height: auto;
+      background-position: top;
+      background-size: 40vw;
+      background-position: left;
+      border: none;
+      border-top: 20px #f4f5db solid;
+      font-size: 17px;
+    }
+
+    .about_us_content {
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 17px;
+      float: right;
+      width: 70%;
+      height: 70%;
+      background-size: 100%;
+      box-shadow: none;
+    }
+  }
+
   .column {
     flex: 32%;
     max-width: 31%;
@@ -215,6 +252,11 @@
   .my-button {
     font-size: 4vw;
   }
+
+  .socialMedia_container_icons {
+    width: 50%;
+  }
+
   .socialMedia_container_icons {
     width: 50%;
   }

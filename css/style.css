@@ -154,23 +154,24 @@ body {
 
 .about_us_title {
   margin-bottom: 20px;
-  font-size: 40px;
+  font-size: 27px;
   color: #487e95;
   font-weight: bold;
 }
 
 .about_us p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   text-align: justify;
   margin-bottom: 20px;
 }
 
-.about_us_title:hover {
+/* .about_us_title:hover {
   width: 50%;
   font-size: 60px;
   border-bottom: #487e95 2px solid;
-}
+} */
+
 /* End about_us style---------------- */
 /* cut line*/
 .cut-line img {
