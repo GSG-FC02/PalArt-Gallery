@@ -23,6 +23,7 @@
   }
   .our-team-maincontainer {
     flex-direction: column;
+<<<<<<< HEAD
   }
   .our-team-subcontainer {
     width: 100%;
@@ -63,6 +64,18 @@
     width: 100%;
     padding: 80px 30% 0px 30%;
     font-size: 80px;
+=======
+  }
+  .our-team-subcontainer {
+    width: 100%;
+  }
+  .our-team-box {
+    height: 350px;
+  }
+  .our-team-box img {
+    width: 250px;
+    height: 300px;
+>>>>>>> 2e332681d76bd84e0d5be6d9e46465e9289b3362
   }
 }
 
@@ -250,10 +263,14 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2e332681d76bd84e0d5be6d9e46465e9289b3362
   .socialMedia_container_icons {
     width: 50%;
   }
 }
+<<<<<<< HEAD
 =======
   .socialMedia_container_icons{
 =======
@@ -312,3 +329,5 @@
 >>>>>>> main
 =======
 >>>>>>> main
+=======
+>>>>>>> 2e332681d76bd84e0d5be6d9e46465e9289b3362
