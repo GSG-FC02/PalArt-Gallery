@@ -1,4 +1,108 @@
+@media screen and (max-width: 900px) {
+  .header_nav {
+    font-size: 20px;
+    justify-content: space-between;
+  }
+
+  .about_us {
+    background-position: top left;
+    background-size: contain;
+  }
+  .about_us_content {
+    padding: 10px;
+    font-size: 20px;
+  }
+  /* cut line*/
+  .cut-line img {
+    width: 50%;
+    margin: 30px 25% 20px 25%;
+  }
+  /* our team style media*/
+  .our-team {
+    height: 850px;
+  }
+  .our-team-maincontainer {
+    flex-direction: column;
+  }
+  .our-team-subcontainer {
+    width: 100%;
+  }
+  .our-team-box {
+    height: 350px;
+  }
+  .our-team-box img {
+    width: 250px;
+    height: 300px;
+  }
+  /*gallery page media */
+  .painter {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .gallery-page {
+    width: 98%;
+    margin-left: 1%;
+  }
+
+  .paint-imge {
+    width: 30%;
+    height: 300px;
+  }
+  .paint-desc {
+    height: 300px;
+    width: 60%;
+  }
+  .paint-desc h2 {
+    font-size: 16px;
+  }
+  .paint-desc p {
+    font-size: 9.5px;
+  }
+  .head h1 {
+    width: 100%;
+    padding: 80px 30% 0px 30%;
+    font-size: 80px;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .header_container {
+    flex-direction: column;
+
+    text-align: center;
+  }
+  .header {
+    height: auto;
+    position: absolute;
+  }
+  .header_nav {
+    width: 100%;
+  }
+  .header_nav_list a {
+    font-size: 15px;
+  }
+
+  .header_nav_list a:hover {
+    font-size: 16px;
+  }
+  .header_container_title {
+    padding-bottom: 10px;
+    margin-left: 0px;
+  }
+
+  .banner_area {
+    padding-top: 200px;
+  }
+
+  .banner_area h2 {
+    font-size: 18vw;
+  }
+
+  .banner_area p {
+    font-size: 9vw;
+  }
+
   .about_us {
     text-align: center;
     padding-top: 0px;
@@ -16,14 +120,145 @@
     background-size: 100%;
     box-shadow: none;
   }
-}
-@media screen and (max-width: 900px) {
-  .about_us {
-    background-position: top left;
-    background-size: contain;
+  .column {
+    flex: 32%;
+    max-width: 31%;
+    flex-wrap: nowrap;
   }
-  .about_us_content {
+  .contact-info {
+    overflow: hidden;
+    font-size: 10px;
+    height: 22%;
     padding: 10px;
+    font-weight: bold;
+  }
+  .contact-header {
+    font-size: 18px;
+  }
+  .contact form button {
+    width: 70%;
+    font-size: 14px;
+  }
+  .contact-info {
+    width: 80%;
+    font-size: 8px;
+  }
+  /*gallery page media */
+  .gal2-head {
+    display: flex;
+    height: 60;
+    justify-content: center;
+    flex-direction: column;
+    height: 60px;
+  }
+  .gal2-head a {
+    font-size: 15px;
+  }
+
+  .gal2-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .gal2-head a:hover {
+    font-size: 16px;
+  }
+  .header_container_title {
+    padding-bottom: 10px;
+    margin-left: 0px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .gal2-head .back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-weight: 100;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* cut line*/
+  .cut-line img {
+    width: 60%;
+    margin: 30px 20% 20px 20%;
+  }
+  /* our team style media */
+  .our-team {
+    height: 1700px;
+  }
+  .our-team-subcontainer {
+    flex-direction: column;
+  }
+  .our-team-box {
+    width: 100%;
+    height: 400px;
+  }
+  .our-team-box img {
+    width: 280px;
+    height: 350px;
+  }
+  /*gallery media--------*/
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .gallery h2 {
+    font-size: 6vw;
+  }
+
+  .my-button {
+    font-size: 4vw;
+  }
+  .socialMedia_container_icons {
+    width: 50%;
+  }
+  /* gallery page media */
+  .head h1 {
+    width: 100%;
+    padding: 90px 25% 0px 30%;
+    font-size: 60px;
+  }
+  .back {
+    width: 50%;
+  }
+  .painter {
+    display: flex;
+    width: 90%;
+    height: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+  }
+  .paint-imge {
+    width: 80%;
+    height: 500px;
+    margin: 10px 10% 10px 10%;
+  }
+  .paint-desc {
+    width: 80%;
+    height: 300px;
+    padding: 20px 5px 0px 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .paint-desc h2 {
+    font-size: 17px;
+  }
+  .paint-desc p {
+    font-size: 15px;
+  }
+  .gallery-page-header {
+    margin-top: 80px;
     font-size: 20px;
+  }
+  /*footer*/
+  .socialMedia_container_icons {
+    width: 50%;
   }
 }
