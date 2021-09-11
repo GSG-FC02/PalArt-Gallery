@@ -216,14 +216,15 @@ color:rgb(129, 126, 126);
 }
 
 .socialMedia_container_icons i {
-    width: 30px;
-    height: 30px;
-    border: 2px solid #f4f5db;
-    border-radius: 50%;
-    color: #f4f5db;
-    font-size: 15px;
-    text-align: center;
-    line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #f4f5db;
+  border-radius: 50%;
+  color: #f4f5db;
+  font-size: 15px;
 }
 
 .socialMedia_container_icons i:hover{

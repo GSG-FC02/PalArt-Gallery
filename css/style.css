@@ -19,6 +19,14 @@ body {
   box-sizing: border-box;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
+input {
+  text-indent: 3%;
+}
+
 /* the header section */
 .header {
   padding: 5px;
@@ -315,10 +323,18 @@ body {
   justify-content: center;
   flex-direction: column;
   line-height: 1.5;
-  color: #487e95;
   margin: auto;
   margin: 10px 0;
   overflow: hidden; /* for email when size shrink*/
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #487e95;
+}
+
+.contact-info:hover {
+  background-color: #d9dab0;
 }
 
 .contact-form {
@@ -395,14 +411,15 @@ footer {
 }
 
 .socialMedia_container_icons i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 30px;
   height: 30px;
   border: 2px solid #f4f5db;
   border-radius: 50%;
   color: #f4f5db;
   font-size: 15px;
-  text-align: center;
-  line-height: 30px;
 }
 
 .socialMedia_container_icons i:hover {
