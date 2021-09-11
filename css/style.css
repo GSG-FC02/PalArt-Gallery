@@ -19,8 +19,12 @@ body {
   box-sizing: border-box;
 }
 
-.pointer{
+.pointer {
   cursor: pointer;
+}
+
+input {
+  text-indent: 3%;
 }
 
 /* the header section */
